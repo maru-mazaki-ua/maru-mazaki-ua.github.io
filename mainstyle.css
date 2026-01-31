@@ -1,0 +1,180 @@
+:root {
+        --main_clr: #45cbe6;
+        --dark_clr: #082a4d;
+        --light_clr: #a6efff;
+        --lightest: #fefefe;
+        --bg: url(фони/зірки.gif);
+        --window_bg: url(фони/водорості.gif);
+        --white_decor: url(біла_зірочка.gif);
+        --border1: url(краї/зірки.png);
+        --border2: url(краї/краї.png);
+}
+body {
+        background: var(--bg);
+        background-attachment: fixed;
+}
+.title {
+        opacity: 0.8;
+}
+.mainWin {
+        width: 1100px;
+        border-radius: 25px;
+        background-image: var(--window_bg);
+        box-shadow: 10px 10px var(--dark_clr);
+        position: absolute;
+        top: 375px;
+        right: 195px;
+        border: 25px solid transparent;
+        border-image: var(--border1) 30 round;
+        outline-color: var(--main_clr);
+        outline-width: 3px;
+        outline-style: outset;
+}
+.mainWin h1 {
+        color: var(--main_clr);
+        text-align: center;
+        font-size: 30px;
+        font-family: Comic Sans MS;
+        transition: color 0.25s, font-size 0.25s;
+}
+.mainWin p {
+        color: var(--main_clr);
+        text-align: center;
+        font-family: Comic Sans MS;
+        font-size: 15px;
+}
+.wow {
+       background-color: var(--lightest);
+       border-radius: 30px;
+       border: 30px solid transparent;
+       border-image: var(--border2) 32 round;
+       box-shadow: 10px 10px var(--main_clr);
+       margin: 10px 40px 10px 40px;
+       padding: 0 5px 0 5px;
+}
+.star {
+        text-align: center;
+        font-size: 30px;
+}
+.btn_brd {
+        background-color: var(--main_clr);
+        display: flex;
+        border-radius: 25px;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0 50px;
+        padding: 0 5px;
+}
+.btn_brd h2, .lnk_brd h2 {
+        color: var(--main_clr);
+        padding: 10px 40px;
+        margin: 25px 0;
+        background: var(--lightest);
+        border-radius: 25px;
+        font-size: 20px;
+        font-family: Comic Sans MS;
+        transition: padding 0.25s, color 0.25s, box-shadow 0.25s, background 0.25s, font-size 0.25s, text-shadow 0.25s;
+        box-shadow: var(--light_clr) 0px 0px;
+        text-shadow: var(--light_clr) 0px 0px;
+}
+h2:hover {
+        color: var(--light_clr);
+        padding: 10px 100px;
+        box-shadow: var(--light_clr) 0px 0px 20px;
+        background: var(--bg);
+        font-size: 20.5px;
+        text-shadow: var(--light_clr) 0px 0px 5px;
+}
+h1:hover {
+        font-size: 37.5px;
+        color: var(--light_clr);
+        text-shadow: var(--light_clr) 0px 0px 2.5px;
+}
+.lnk_brd {
+        background: var(--main_clr);
+        font-family: Comic Sans MS;
+        padding: 10px 5px;
+        margin: 0 50px;
+        display: flex;
+        border-radius: 25px;
+        flex-direction: row;
+        justify-content: space-around;
+}
+.lnk_brd a, .lnk_brd li {
+        color: var(--lightest);
+        font-size: 20px;
+        list-style-image: var(--white_decor);
+        transition: text-shadow 0.25s, padding 0.25s, font-weight 0.25s;
+}
+li:hover {
+        text-shadow: var(--lightest) 0px 0px 10px;
+        text-shadow: var(--lightest) 0px 0px 5px;
+        padding: 0 50px;
+        font-weight: bold;
+}
+ul {
+        padding: 50px 0;
+}
+::selection {
+        background: var(--dark_clr);
+        text-shadow: var(--light_clr) 0px 0px 5px;
+        color: var(--light_clr);
+}
+.themes, .langs {
+        position: fixed;
+        background: var(--window_bg);
+        display: flex;
+        flex-direction: column;
+        bottom: 10px;
+        outline-color: var(--main_clr);
+        outline-width: 3px;
+        outline-style: outset;
+        border-radius: 25px;
+        padding: 10px;
+        box-shadow: 10px 10px var(--dark_clr);
+}
+.langs {
+        right: 0;
+}
+button {
+        background: var(--lightest);
+        border: none;
+        border-radius: 10px;
+        margin: 5px 0;
+        transition: padding 0.25s, background 0.25s;
+        box-shadow: 0px 0px var(--main_clr);
+}
+button:hover {
+        padding: 5px 40px;
+        box-shadow: 5px 5px var(--main_clr);
+        background: var(--bg);
+}
+.themes p, .langs p {
+        display: none;
+        font-family: Comic Sans MS;
+        text-shadow: 0px 0px;
+        transition: text-shadow 0.25s, display 0.25s;
+}
+#thm1{
+        color: #45cbe6;
+        text-shadow: 0px 0px 10px #45cbe6;
+}
+#thm2 {
+        color: #f26185;
+        text-shadow: 0px 0px 10px #f26185;
+}
+#thm3 {
+        color: #cc843e;
+        text-shadow: 0px 0px 10px #cc843e;
+}
+#thm4 {
+        color: #7373e6;
+        text-shadow: 0px 0px 10px #7373e6;
+}
+.langs p{
+        color: var(--main_clr);
+        text-shadow: 0px 0px 10px var(--main_clr);
+}
+button:hover p {
+        display: inline;
+}
