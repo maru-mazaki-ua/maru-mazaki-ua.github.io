@@ -11,6 +11,7 @@ function starify() {
     document.getElementById("mrpd_img").src = "лоґо/" + folder + "/марупедія.gif";
     document.getElementById("drwngs_img").src = "лоґо/" + folder + "/малюнки.gif";
     document.getElementById("stckrs_img").src = "лоґо/" + folder + "/наліпки.gif";
+    document.getElementById("gms_img").src = "лоґо/" + folder + "/забавки.gif";
     color.style.setProperty('--bg','url(фони/зірки.gif)');
     color.style.setProperty('--window_bg','url(фони/водорості.gif)');
     color.style.setProperty('--main_clr', '#45cbe6');
@@ -31,6 +32,7 @@ function heartify() {
     document.getElementById("mrpd_img").src = "лоґо/" + folder + "/марупедія.gif";
     document.getElementById("drwngs_img").src = "лоґо/" + folder + "/малюнки.gif";
     document.getElementById("stckrs_img").src = "лоґо/" + folder + "/наліпки.gif";
+    document.getElementById("gms_img").src = "лоґо/" + folder + "/забавки.gif";
     color.style.setProperty('--bg','url(фони/серденька.gif)');
     color.style.setProperty('--window_bg','url(фони/танець_серця.gif)');
     color.style.setProperty('--main_clr', '#f26185');
@@ -51,6 +53,7 @@ function smilify() {
     document.getElementById("mrpd_img").src = "лоґо/" + folder + "/марупедія.gif";
     document.getElementById("drwngs_img").src = "лоґо/" + folder + "/малюнки.gif";
     document.getElementById("stckrs_img").src = "лоґо/" + folder + "/наліпки.gif";
+    document.getElementById("gms_img").src = "лоґо/" + folder + "/забавки.gif";
     color.style.setProperty('--bg','url(фони/мармизки.gif)');
     color.style.setProperty('--window_bg','url(фони/емоджі.gif)');
     color.style.setProperty('--main_clr', '#cc843e');
@@ -71,6 +74,7 @@ function dropify() {
     document.getElementById("mrpd_img").src = "лоґо/" + folder + "/марупедія.gif";
     document.getElementById("drwngs_img").src = "лоґо/" + folder + "/малюнки.gif";
     document.getElementById("stckrs_img").src = "лоґо/" + folder + "/наліпки.gif";
+    document.getElementById("gms_img").src = "лоґо/" + folder + "/забавки.gif";
     color.style.setProperty('--bg','url(фони/крапельки.gif)');
     color.style.setProperty('--window_bg','url(фони/море.gif)');
     color.style.setProperty('--main_clr', '#7373e6');
