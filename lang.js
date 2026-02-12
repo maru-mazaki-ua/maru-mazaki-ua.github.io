@@ -6,6 +6,7 @@ function en_set() {
     document.getElementById("mrpd").innerHTML = "Marupedia";
     document.getElementById("strs").innerHTML = "Stories";
     document.getElementById("drwngs").innerHTML = "Drawings";
+    document.getElementById("gms").innerHTML = "Fun thingies";
     document.getElementById("lnks").innerHTML = "Useful links!";
     document.getElementById("about_lnks").innerHTML = "They can help ya find me on other media ;3<br>Also they can lead you to my gorgeous stickers!";
     document.getElementById("lnk1").innerHTML = "My Telegram channel! (in Ukrainian)";
@@ -27,6 +28,7 @@ function br_set() {
     document.getElementById("mrpd").innerHTML = "Марупедыя";
     document.getElementById("strs").innerHTML = "Гісторыі";
     document.getElementById("drwngs").innerHTML = "Малюнкі";
+    document.getElementById("gms").innerHTML = "Гульні";
     document.getElementById("lnks").innerHTML = "Карысныя спасылкі!";
     document.getElementById("about_lnks").innerHTML = "За імі ты можаш знайсці мяне ў іншых мэдыя ;P<br>А таксама яны прывядуць да маіх вельмі прыгожых налепак!";
     document.getElementById("lnk1").innerHTML = "Мой тэлеграм-канал! (Па-ўкраінску)";
@@ -48,6 +50,7 @@ function ua_set() {
     document.getElementById("mrpd").innerHTML = "Марупедія";
     document.getElementById("strs").innerHTML = "Історії";
     document.getElementById("drwngs").innerHTML = "Малюнки";
+    document.getElementById("gms").innerHTML = "Забавки";
     document.getElementById("lnks").innerHTML = "Корисні покликання!";
     document.getElementById("about_lnks").innerHTML = "За ними ти можеш мене знайти у інших медіа ;3<br>А також вони приведуть тебе до моїх пречудових наліпок!";
     document.getElementById("lnk1").innerHTML = "Мій телеґрам-канал! (Українською)";
