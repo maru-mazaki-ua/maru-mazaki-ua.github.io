@@ -1,0 +1,25 @@
+body {
+    background-image: linear-gradient(to top, #bfb2ff, #fefefe, #fefefe)
+}
+h1 {
+    background-image: linear-gradient(to right, #bfb2ff, #fefefe);
+    color: #522e99;
+    font-family: "Segoe Script";
+    text-align: center;
+}
+h2 {
+    background-image: linear-gradient(to right, #ac73e6, #bfb2ff);
+    color: #522e99;
+    font-family: "Segoe Script";
+    text-align: center;
+}
+p {
+    color: #872e99;
+    font-family: "Segoe Print"
+}
+a {
+    color: #872e99;
+    font-family: "Segoe Script";
+    font-style: italic;
+    font-weight: bold;
+}
