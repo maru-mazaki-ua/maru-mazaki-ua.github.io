@@ -1,0 +1,12 @@
+article {
+    padding: 22px;
+    color: #3a364d;
+    font-family: Comic Sans MS;
+    font-size: 15px;
+}
+::selection {
+        background: #3a364d;
+        text-shadow: #cfdae6 0px 0px 5px;
+        color: #cfdae6;
+        transition: background 0.25s, color 0.25s, text-shadow 0.25s;
+}
