@@ -12,6 +12,7 @@
 body {
         background: var(--bg);
         background-attachment: fixed;
+        transition: background 0.25s;
 }
 .title {
         opacity: 0.8;
@@ -29,6 +30,7 @@ body {
         outline-color: var(--main_clr);
         outline-width: 3px;
         outline-style: outset;
+        transition: background 0.25s, border-image 0.25s;
 }
 .mainWin h1 {
         color: var(--main_clr);
@@ -42,6 +44,7 @@ body {
         text-align: center;
         font-family: Comic Sans MS;
         font-size: 15px;
+        transition: color 0.25s;
 }
 .wow {
        background-color: var(--lightest);
@@ -51,6 +54,7 @@ body {
        box-shadow: 10px 10px var(--main_clr);
        margin: 10px 40px 10px 40px;
        padding: 0 5px 0 5px;
+       transition: background 0.25s, border-image 0.25s;
 }
 .star {
         text-align: center;
@@ -64,6 +68,7 @@ body {
         justify-content: space-around;
         margin: 0 50px;
         padding: 0 5px;
+        transition: background 0.25s;
 }
 .btn_brd h2, .lnk_brd h2 {
         color: var(--main_clr);
@@ -99,6 +104,7 @@ h1:hover {
         border-radius: 25px;
         flex-direction: row;
         justify-content: space-around;
+        transition: background 0.25s;
 }
 .lnk_brd a, .lnk_brd li {
         color: var(--lightest);
@@ -106,19 +112,20 @@ h1:hover {
         list-style-image: var(--white_decor);
         transition: text-shadow 0.25s, padding 0.25s, font-weight 0.25s;
 }
-li:hover {
+.link:hover {
         text-shadow: var(--lightest) 0px 0px 10px;
         text-shadow: var(--lightest) 0px 0px 5px;
         padding: 0 50px;
         font-weight: bold;
 }
-ul {
+.list_links {
         padding: 50px 0;
 }
 ::selection {
         background: var(--dark_clr);
         text-shadow: var(--light_clr) 0px 0px 5px;
         color: var(--light_clr);
+        transition: background 0.25s, color 0.25s, text-shadow 0.25s;
 }
 .themes, .langs {
         position: fixed;
@@ -132,9 +139,36 @@ ul {
         border-radius: 25px;
         padding: 10px;
         box-shadow: 10px 10px var(--dark_clr);
+        transition: background 0.25s;
 }
 .langs {
         right: 0;
+}
+#bout_me {
+        color: var(--main_clr);
+        font-size: 20px;
+        font-family: Comic Sans MS;
+        font-weight: 700;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        outline-color: var(--main_clr);
+        outline-width: 3px;
+        outline-style: solid;
+        border-radius: 30px;
+        padding: 5px 20px 7.5px;
+        box-shadow: 0px 0px 10px var(--main_clr);
+        text-decoration: none;
+        background: var(--dark_clr);
+        transition: box-shadow 0.25s, outline-color 0.25s, color 0.25s, text-shadow 0.25s, font-size 0.25s, padding 0.25s;
+}
+#bout_me:hover {
+        box-shadow: 0px 0px 20px var(--light_clr);
+        outline-color: var(--light_clr);
+        color: var(--light_clr);
+        text-shadow: 0px 0px 10px var(--main_clr);
+        padding: 5px 15px 7px;
+        font-size: 25px;
 }
 button {
         background: var(--lightest);
@@ -144,10 +178,28 @@ button {
         transition: padding 0.25s, background 0.25s;
         box-shadow: 0px 0px var(--main_clr);
 }
+.lang_option {
+        background: var(--lightest);
+        border: none;
+        border-radius: 15px;
+        margin: 5px 0;
+        transition: padding 0.25s, background 0.25s;
+        box-shadow: 0px 0px var(--main_clr);
+        text-decoration: none;
+        padding: 2px 5px;
+        transition: background 0.25s;
+}
 button:hover {
         padding: 5px 40px;
         box-shadow: 5px 5px var(--main_clr);
         background: var(--bg);
+        transition: background 0.25s;
+}
+.lang_option:hover {
+        padding: 5px 20px;
+        box-shadow: 5px 5px var(--main_clr);
+        background: var(--bg);
+        transition: background 0.25s;
 }
 .themes p, .langs p {
         display: none;
@@ -171,10 +223,21 @@ button:hover {
         color: #7373e6;
         text-shadow: 0px 0px 10px #7373e6;
 }
+#thm5 {
+        color: #59bf26;
+        text-shadow: 0px 0px 10px #59bf26;
+}
+#thm6 {
+        color: #d96ca3;
+        text-shadow: 0px 0px 10px #d96ca3;
+}
 .langs p{
         color: var(--main_clr);
         text-shadow: 0px 0px 10px var(--main_clr);
 }
 button:hover p {
+        display: inline;
+}
+.lang_option:hover p {
         display: inline;
 }

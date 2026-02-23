@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Choose a language</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
+        <style>
+            body {
+                background: linear-gradient(to top, #7a8099, #cfdae6);
+            }
+            .main {
+                background: linear-gradient(to top, #cfdae6, #fefefe);
+                border-color: #110f1a;
+                border-style: solid;
+                top: 250px;
+                position: absolute;
+                padding: 0px 50px;
+                left: 470px;
+                border-radius: 100px;
+                border-width: 5px;
+                box-shadow: 0px 5px 5px #7a8099;
+                font-family: Comic Sans MS;
+            }
+            p {
+                text-align: center;
+            }
+            .langs {
+                display: flex;
+                justify-content: space-around;
+                flex-direction: row;
+            }
+            h2 {
+                padding: 10px 50px;
+                transition: font-size 0.25s, color 0.25s, box-shadow 0.25s;
+                background: #fefefe;
+                border-radius: 100px;
+                margin: 25px 20px;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                font-size: 20px;
+                box-shadow: 0px 5px 5px #7a8099;
+            }
+            h2:hover {
+                font-size: 25px;
+                color: #7a8099;
+                box-shadow: 0px 0px 10px #fefefe;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main"><p>Choose a language</p>
+            <div class="langs">
+                <h2>Українська<a href="main_ua.html"><img src="ua.png"></a></h2>
+                <h2>English<a href="main_en.html"><img src="en.png"></a></h2>
+            </div>
+        </div>
+    </body>
+</html>

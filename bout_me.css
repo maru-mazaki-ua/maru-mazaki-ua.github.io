@@ -1,0 +1,109 @@
+:root {
+    --main_clr: url(фони/водорості.gif);
+    --dark_clr: #45cbe6;
+    --lightest: #fefefe;
+    --light_clr: #a6efff;
+    --dark_bg: url(фони/зірки.gif);
+    --border: url(краї/краї.png);
+}
+body {
+    background: var(--main_clr);
+    transition: background 0.25s;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.info {
+    color: var(--dark_clr);
+    font-family: Comic Sans MS;
+    font-size: 15px;
+    background: var(--lightest);
+    text-decoration: none;
+    border-width: 3px;
+    border-color: var(--dark_clr);
+    border-radius: 35px;
+    border-style: solid;
+    box-shadow: 5px 5px var(--dark_clr);
+    margin: 0px 15px;
+    padding: 19.5px 10px;
+    transition: font-size 0.25s, color 0.25s, text-shadow 0.25s, background 0.25s;
+}
+.bottom_left {
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.bottom_left a {
+    color: var(--dark_clr);
+    font-family: Comic Sans MS;
+    font-size: 15px;
+    background: var(--lightest);
+    text-decoration: none;
+    border-width: 3px;
+    border-color: var(--dark_clr);
+    border-radius: 35px;
+    border-style: solid;
+    box-shadow: 5px 5px var(--dark_clr);
+    padding: 5px 10px;
+    margin-top: 15px;
+    transition: font-size 0.25s, color 0.25s, text-shadow 0.25s, background 0.25s;
+}
+a:hover {
+    font-size: 18px;
+    color: var(--light_clr);
+    text-shadow: 0px 0px 5px var(--light_clr);
+    background: var(--dark_bg);
+}
+.themes {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    color: var(--dark_clr);
+    background: var(--lightest);
+    border-width: 3px;
+    border-color: var(--dark_clr);
+    border-radius: 35px;
+    border-style: solid;
+    box-shadow: 5px 5px var(--dark_clr);
+    padding: 5px 10px;
+}
+button {
+    background: none;
+    border: none;
+    transition: background 0.25s, padding 0.25s;
+    border-radius: 35px;
+}
+button:hover {
+    background: var(--dark_bg);
+    padding: 0px 20px;
+}
+iframe {
+    width: 700px;
+    height: 450px;
+    background: var(--lightest);
+    border-color: var(--dark_clr);
+    border-radius: 25px;
+    border: 25px solid transparent;
+    box-shadow: 5px 5px var(--dark_clr);
+    border-image:  var(--border) 32 round;
+    transition: border-image 0.25s, background 0.25s;
+}
+::selection {
+        background: var(--dark_bg);
+        text-shadow: var(--light_clr) 0px 0px 5px;
+        color: var(--light_clr);
+        transition: background 0.25s, color 0.25s, text-shadow 0.25s;
+}
