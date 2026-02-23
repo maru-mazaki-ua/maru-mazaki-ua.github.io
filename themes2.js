@@ -20,7 +20,7 @@ function starify() {
     color.style.setProperty('--white_decor','url(біла_зірочка.gif)');
     color.style.setProperty('--border1','url(краї/зірки.png)');
     color.style.setProperty('--border2','url(краї/краї.png)');
-    document.getElementById("strs_img").src = "лоґо/" + theme + "/історії_cyr" + ".gif";
+    document.getElementById("strs_img").src = "лоґо/" + theme + "/історії_lat" + ".gif";
 }
 function heartify() {
     for (var t = 0; t < decors.length; t++) {
@@ -41,7 +41,7 @@ function heartify() {
     color.style.setProperty('--white_decor','url(біле_серденько.gif)');
     color.style.setProperty('--border1','url(краї/серця.png)');
     color.style.setProperty('--border2','url(краї/краї2.png)');
-    document.getElementById("strs_img").src = "лоґо/" + theme + "/історії_cyr" + ".gif";
+    document.getElementById("strs_img").src = "лоґо/" + theme + "/історії_lat" + ".gif";
 }
 function smilify() {
     for (var t = 0; t < decors.length; t++) {
@@ -62,7 +62,7 @@ function smilify() {
     color.style.setProperty('--white_decor','url(біла_мармизка.gif)');
     color.style.setProperty('--border1','url(краї/стрілочки.png)');
     color.style.setProperty('--border2','url(краї/краї3.png)');
-    document.getElementById("strs_img").src = "лоґо/" + theme + "/історії_cyr" + ".gif";
+    document.getElementById("strs_img").src = "лоґо/" + theme + "/історії_lat" + ".gif";
 }
 function dropify() {
     for (var t = 0; t < decors.length; t++) {
@@ -83,7 +83,7 @@ function dropify() {
     color.style.setProperty('--white_decor','url(біла_крапелька.gif)');
     color.style.setProperty('--border1','url(краї/краплі.png)');
     color.style.setProperty('--border2','url(краї/краї4.png)');
-    document.getElementById("strs_img").src = "лоґо/" + theme + "/історії_cyr" + ".gif";
+    document.getElementById("strs_img").src = "лоґо/" + theme + "/історії_lat" + ".gif";
 }
 function plantify() {
     for (var t = 0; t < decors.length; t++) {
@@ -104,7 +104,7 @@ function plantify() {
     color.style.setProperty('--white_decor','url(білий_листочок.gif)');
     color.style.setProperty('--border1','url(краї/рослини.png)');
     color.style.setProperty('--border2','url(краї/краї5.png)');
-    document.getElementById("strs_img").src = "лоґо/" + theme + "/історії_cyr" + ".gif";
+    document.getElementById("strs_img").src = "лоґо/" + theme + "/історії_lat" + ".gif";
 }
 function catify() {
     for (var t = 0; t < decors.length; t++) {
@@ -125,5 +125,5 @@ function catify() {
     color.style.setProperty('--white_decor','url(біла_киця.gif)');
     color.style.setProperty('--border1','url(краї/котики.png)');
     color.style.setProperty('--border2','url(краї/краї6.png)');
-    document.getElementById("strs_img").src = "лоґо/" + theme + "/історії_cyr" + ".gif";
+    document.getElementById("strs_img").src = "лоґо/" + theme + "/історії_lat" + ".gif";
 }
